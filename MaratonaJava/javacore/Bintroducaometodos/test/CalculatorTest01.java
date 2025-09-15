@@ -11,7 +11,15 @@ public class CalculatorTest01 {
         int x = sc.nextInt();
         int y = sc.nextInt();
 
+        System.out.print("Soma: ");
         calculator.somaDoisNumeros(x, y);
+        System.out.print("Subtrai: ");
+        calculator.subtraiDoisNumeros(x, y);
+        System.out.print("Multiplica: ");
+        calculator.multiplicaDoisNumeros(x, y);
+        System.out.print("Divide: ");
+        double z = calculator.divideDoisNumeros(x, y);
+        System.out.println(z);
 
     }
 }

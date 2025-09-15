@@ -5,4 +5,17 @@ public class Calculator {
         int z = x + y;
         System.out.println(z);
     }
+    public void subtraiDoisNumeros(int x, int y) {
+        int z = x - y;
+        System.out.println(z);
+    }
+
+    public void multiplicaDoisNumeros(int x, int y) {
+        int z = x * y;
+        System.out.println(z);
+    }
+
+    public double divideDoisNumeros(double x, double y) {
+        return x / y;
+    }
 }
