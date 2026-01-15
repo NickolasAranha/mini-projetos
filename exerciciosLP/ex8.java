@@ -11,7 +11,6 @@ public class ex8 {
         int meio = 0;
         int menor = 0;
 
-
         if(valor1 > valor2 && valor1 > valor3) {
             maior = valor1;
             if(valor2 < valor3) {
