@@ -11,6 +11,8 @@ public class ex5 {
 
         float qnts = sal / salMin;
         System.out.println(qnts);
+        System.out.println("Fim do programa!");
+        sc.close();
 
     }
 }

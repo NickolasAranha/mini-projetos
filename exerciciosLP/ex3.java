@@ -29,7 +29,9 @@ public class ex3 {
             a = sc.nextInt();
 
             if (a != 1) {
+                System.out.println("Fim do programa!");
                 return;
+
             }
         }
     }

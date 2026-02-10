@@ -42,5 +42,6 @@ public class ex10_2 {
         System.out.printf("Média: %.1f", media);
 
         sc.close();
+        System.out.println("Fim do programa!");
     }
 }

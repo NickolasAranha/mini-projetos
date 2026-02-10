@@ -28,6 +28,8 @@ public class ex2 {
             a = sc.nextInt();
 
             if (a != 1) {
+                System.out.println("Fim do programa!");
+
                 return;
             }
             System.out.println();

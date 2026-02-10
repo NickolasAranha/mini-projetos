@@ -37,6 +37,7 @@ public class ex14 {
         a = b;
         b = c;
         imprimeValores("depois", a, b);
+        System.out.println("Fim do programa!");
         sc.close();
     }
 

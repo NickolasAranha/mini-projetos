@@ -21,5 +21,8 @@ public class ex17 {
         Double celsius = 5 * (fahrenheit - 32) / 9;
         System.out.printf("fahrenheit: %.2f/n", fahrenheit);
         System.out.printf("celsius: %.2f/n ", celsius);
+        sc.close();
+        System.out.println("Fim do programa!");
+
     }
 }

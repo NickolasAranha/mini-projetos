@@ -32,5 +32,8 @@ public class ex10 {
 
         media = (nota1 + nota2 + nota3) / 3;
         System.out.printf("A média do aluno é %.1f.", media);
+        sc.close();
+        System.out.println("Fim do programa!");
+
     }
 }

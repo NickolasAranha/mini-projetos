@@ -35,5 +35,6 @@ public class ex12 {
 
         System.out.printf("Valor final a ser pago %.2f", valor);
         sc.close();
+        System.out.println("Fim do programa!");
     }
 }

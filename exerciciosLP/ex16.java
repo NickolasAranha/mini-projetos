@@ -35,8 +35,10 @@ public class ex16 {
             }
 
         System.out.println("Esse triângulo é " + verificarClassificacaoTriangulo(a, b, c));
+        sc.close();
+        System.out.println("Fim do programa!");
 
-        }
+    }
 
         public static String verificarClassificacaoTriangulo(int a, int b, int c) {
             if (a == b && b == c) {

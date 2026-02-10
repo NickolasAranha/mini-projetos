@@ -14,5 +14,8 @@ public class ex7 {
         } else {
             System.out.println("Falso");
         }
+
+        sc.close();
+        System.out.println("Fim do programa!");
     }
 }

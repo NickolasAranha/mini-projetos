@@ -7,6 +7,7 @@ public class ex6 {
         Scanner sc = new Scanner(System.in);
         int valor = sc.nextInt();
         System.out.print("Valor: " + (valor + (valor * 0.05)));
-
+        sc.close();
+        System.out.println("Fim do programa!");
     }
 }

@@ -18,5 +18,7 @@ public class ex18 {
         System.out.println("Serão necessários " + i + " anos para que Francisco seja maior que Sara");
         System.out.printf("Altura de Francisco no fim: %.2f\n", heightFrancisco);
         System.out.printf("Altura de Maria no fim: %.2f",heightMaria);
+        System.out.println("Fim do programa!");
+
     }
 }

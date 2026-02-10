@@ -31,6 +31,6 @@ public class ex13 {
         }
 
         System.out.printf("%s tem " + age + " anos e é %s", name, texto);
-
+        System.out.println("Fim do programa!");
     }
 }

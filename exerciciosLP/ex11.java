@@ -17,7 +17,8 @@ public class ex11 {
                 break;
             }
         }
-
+        System.out.println("Fim do programa!");
+        sc.close();
     }
 
     public static void imprimeMedia(Scanner sc, String nome) {

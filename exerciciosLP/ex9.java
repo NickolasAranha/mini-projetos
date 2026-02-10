@@ -24,6 +24,8 @@ public class ex9 {
 
         System.out.println("Seu condição hoje é de " + calcularImc(altura, peso));
         sc.close();
+        System.out.println("Fim do programa!");
+
     }
 
     public static String calcularImc(Double altura, Double peso) {

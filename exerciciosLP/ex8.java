@@ -44,7 +44,7 @@ public class ex8 {
         System.out.println("Meio: " + meio);
         System.out.println("Menor: " + menor);
 
-
-
+        sc.close();
+        System.out.println("Fim do programa!");
     }
 }
