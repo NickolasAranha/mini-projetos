@@ -4,39 +4,39 @@ import java.util.Scanner;
 public class ex8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
+        int valor1 = sc.nextInt();
+        int valor2 = sc.nextInt();
+        int valor3 = sc.nextInt();
         int maior = 0;
         int meio = 0;
         int menor = 0;
 
-        if(a > b && a > c) {
-            maior = a;
-            if(b < c) {
-                menor = b;
-                meio = c;
+        if(valor1 > valor2 && valor1 > valor3) {
+            maior = valor1;
+            if(valor2 < valor3) {
+                menor = valor2;
+                meio = valor3;
             } else {
-                menor = c;
-                meio = b;
+                menor = valor3;
+                meio = valor2;
             }
-        } else if (b > a && b > c) {
-            maior = b;
-            if(a > c) {
-                meio = a;
-                menor = c;
+        } else if (valor2 > valor1 && valor2 > valor3) {
+            maior = valor2;
+            if(valor1 > valor3) {
+                meio = valor1;
+                menor = valor3;
             } else {
-                meio = c;
-                menor = a;
+                meio = valor3;
+                maior = valor1;
             }
         } else {
-            maior = c;
-            if (a > b) {
-                meio = a;
-                menor = b;
+            maior = valor3;
+            if (valor1 > valor2) {
+                meio = valor1;
+                menor = valor2;
             } else {
-                meio = b;
-                menor = a;
+                meio = valor2;
+                menor = valor1;
             }
         }
 
@@ -44,7 +44,7 @@ public class ex8 {
         System.out.println("Meio: " + meio);
         System.out.println("Menor: " + menor);
 
-        sc.close();
-        System.out.println("Fim do programa!");
+
+
     }
 }
